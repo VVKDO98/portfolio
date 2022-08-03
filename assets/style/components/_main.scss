@@ -1,0 +1,15 @@
+.main {
+  width: 100%;
+  .about {
+    scroll-behavior: smooth;
+    height: 100vh;
+    background-color: black;
+  }
+  .skills {
+    height: 100vh;
+  }
+  .works {
+    height: 100vh;
+    background-color: black;
+  }
+}
