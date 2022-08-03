@@ -364,9 +364,38 @@ h1 {
   width: 100%;
 }
 .main .about {
-  scroll-behavior: smooth;
   height: 100vh;
+  margin: auto;
   background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.main .about .about__description {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.main .about .about__description h2 {
+  color: white;
+}
+.main .about .about__description p {
+  color: white;
+}
+.main .about .about__picture {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .about .about__picture .profilpic {
+  width: 60%;
+  border-radius: 50%;
+  transform: scaleX(-1);
 }
 .main .skills {
   height: 100vh;
