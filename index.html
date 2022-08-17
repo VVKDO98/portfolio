@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/85d5696523.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Doriano Vanvolcksom</title>
   </head>
-  <body>
+  <body class="relative">
     <!-- Header -->
     <header class="h-screen relative flex flex-col justify-center items-center">
       <!-- <img src="#" alt="" class="logo" /> -->
@@ -16,7 +20,7 @@
       </h1>
       <p class="text-base font-light lg:text-xl">
         Junior Web Developer
-        <a href="https://becode.org/" class="text-[#7C83FD]">@BeCode.org</a>
+        <a href="https://becode.org/" class="text-blue-500">@BeCode.org</a>
       </p>
       <img
         src="assets/img/arrow.png"
@@ -24,6 +28,16 @@
         class="w-[40px] absolute bottom-0 animate-bounce"
       />
     </header>
+    <div id="modal">
+      <button
+        type="button"
+        class="fixed right-6 bottom-6 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-full text-sm px-4 py-4 text-center mr-2 mb-2"
+      >
+        <a href="mailto:vanvolcksom.doriano01@gmail.com"
+          ><i class="fa-solid fa-paper-plane fa-xl"></i
+        ></a>
+      </button>
+    </div>
     <!-- Main -->
     <main class="h-full flex flex-col justify-center items-center">
       <!-- About -->
@@ -95,11 +109,10 @@
         </div>
       </section>
       <!-- Project -->
-      <section
+      <!-- <section
         class="h-screen w-full flex flex-col justify-center items-center bg-gray-900"
         id="project"
       >
-        <!-- Pro 1
         <div
           class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
         >
@@ -138,8 +151,8 @@
               </svg>
             </a>
           </div>
-        </div> -->
-      </section>
+        </div>
+      </section> -->
     </main>
     <!-- <section
       class="h-screen w-full flex flex-col justify-center items-center"
