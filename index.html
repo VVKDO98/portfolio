@@ -4,19 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="assets/style/style.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Doriano Vanvolcksom</title>
   </head>
   <body>
-    <header class="header">
-      <img src="#" alt="" class="logo" />
-      <h1 class="title">Doriano Vanvolcksom</h1>
+    <header class="h-screen relative flex flex-col justify-center items-center">
+      <!-- <img src="#" alt="" class="logo" /> -->
+      <h1 class="text-6xl mb-5 uppercase font-semibold">Doriano Vanvolcksom</h1>
       <p>Junior Web Developer @BeCode.org</p>
-      <img src="assets/img/arrow.png" alt="" class="arrow" />
+      <img
+        src="assets/img/arrow.png"
+        alt=""
+        class="w-[40px] absolute bottom-0 animate-bounce"
+      />
     </header>
-    <main class="main">
-      <section class="about">
-        <div class="about__description">
+    <main class="h-full flex flex-col justify-center items-center">
+      <section
+        class="h-screen flex flex-row justify-center items-center bg-gray-900"
+      >
+        <div class="">
           <h2>About me</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima
@@ -25,22 +31,22 @@
             cupiditate magni, odio ipsum aliquam ipsam.
           </p>
         </div>
-        <div class="about__picture">
-          <img src="assets/img/peep.png" alt="" class="profilpic" />
+        <div class="">
+          <img src="assets/img/peep.png" alt="" class="w-96" />
         </div>
       </section>
-      <section class="skills">
+      <section class="">
         <h2>My toolbox</h2>
-        <div class="skills__main">
-          <img src="assets/img/html.png" alt="" class="skills__image" />
-          <img src="assets/img/css-3.png" alt="" class="skills__image" />
-          <img src="assets/img/js.png" alt="" class="skills__image" />
-          <img src="assets/img/sass.png" alt="" class="skills__image" />
-          <img src="assets/img/github.png" alt="" class="skills__image" />
+        <div class="">
+          <img src="assets/img/html.png" alt="" class="" />
+          <img src="assets/img/css-3.png" alt="" class="" />
+          <img src="assets/img/js.png" alt="" class="" />
+          <img src="assets/img/sass.png" alt="" class="" />
+          <img src="assets/img/github.png" alt="" class="" />
         </div>
       </section>
-      <section class="works"></section>
+      <section class=""></section>
     </main>
-    <section class="footer"></section>
+    <section class=""></section>
   </body>
 </html>
