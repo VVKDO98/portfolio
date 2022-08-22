@@ -1,14 +1,14 @@
 [
     {
-        "image" : "",
+        "image" : "assets/img/Screen.png",
         "name" : "Calculator Project",
         "description" : "In this project I created a simple calculator using HTML, CSS and JS.",
         "link" : "https://github.com/VVKDO98/calculator-project"
     },
     {
-        "image" : "",
+        "image" : "assets/img/Screenshot.png",
         "name" : "Weather App",
-        "description" : "A Weather App using API and HTML, CSS and JS.",
+        "description" : "A Weather App using OpenWeather API and HTML, CSS and JS.",
         "link" : "https://github.com/VVKDO98/weather-app"
     },
     {
