@@ -1,20 +1,20 @@
 [
     {
         "image" : "",
-        "name" : "Sunnyside Agency",
-        "description" : "The purpose of this project is to experiment with flexboxes, but also with the use of BEM methodology.",
-        "link" : "https://vvkdo98.github.io/sunnyside-agency/"
+        "name" : "Calculator Project",
+        "description" : "In this project I created a simple calculator using HTML, CSS and JS.",
+        "link" : "https://github.com/VVKDO98/calculator-project"
+    },
+    {
+        "image" : "",
+        "name" : "Weather App",
+        "description" : "A Weather App using API and HTML, CSS and JS.",
+        "link" : "https://github.com/VVKDO98/weather-app"
     },
     {
         "image" : "",
         "name" : "Sunnyside Agency",
-        "description" : "The purpose of this project is to experiment with flexboxes, but also with the use of BEM methodology.",
-        "link" : "https://vvkdo98.github.io/sunnyside-agency/"
-    },
-    {
-        "image" : "",
-        "name" : "Sunnyside Agency",
-        "description" : "The purpose of this project is to experiment with flexboxes, but also with the use of BEM methodology.",
+        "description" : "The purpose of this project is to experiment with flexboxes.",
         "link" : "https://vvkdo98.github.io/sunnyside-agency/"
     }
 ]
