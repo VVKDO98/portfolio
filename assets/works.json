@@ -1,20 +1,23 @@
 [
     {
-        "image" : "assets/img/Screen.png",
+        "image" : "assets/img/calculator.jpg",
         "name" : "Calculator Project",
         "description" : "In this project I created a simple calculator using HTML, CSS and JS.",
-        "link" : "https://github.com/VVKDO98/calculator-project"
+        "link": "https://vvkdo98.github.io/calculator-project/",
+        "linkrepo" : "https://github.com/VVKDO98/calculator-project"
     },
     {
-        "image" : "assets/img/Screenshot.png",
+        "image" : "assets/img/weatherapp.jpg",
         "name" : "Weather App",
         "description" : "A Weather App using OpenWeather API and HTML, CSS and JS.",
-        "link" : "https://github.com/VVKDO98/weather-app"
+        "link": "https://vvkdo98.github.io/weather-app/",
+        "linkrepo" : "https://github.com/VVKDO98/weather-app"
     },
     {
-        "image" : "",
+        "image" : "assets/img/sunnyside.jpg",
         "name" : "Sunnyside Agency",
         "description" : "The purpose of this project is to experiment with flexboxes.",
-        "link" : "https://vvkdo98.github.io/sunnyside-agency/"
+        "link": "https://vvkdo98.github.io/sunnyside-agency/",
+        "linkrepo" : "https://vvkdo98.github.io/sunnyside-agency/"
     }
 ]
