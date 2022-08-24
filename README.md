@@ -2,12 +2,18 @@
 
 ## About this project
 
-In this repo you will see the progress of my personal portfolio.
+In order to present you my different projects, I made a small portfolio.
+
+To add an extra challenge, I decided to make it using a framework that I had never used before, namely, [Tailwind](https://tailwindcss.com/) 😱.
+
+I hope you enjoy it 👽
 
 ## Languages
 
-I use HTML, CSS and JS (not for the moment) to develop this project.
+-   [x] HTML
+-   [x] Tailwind
+-   [x] JavaScript
 
 ## Link
 
-You can see the website by [clicking here](https://vvkdo98.github.io/portfolio/).
+➡ You can see my portfolio by [clicking here](https://vvkdo98.github.io/portfolio/).
