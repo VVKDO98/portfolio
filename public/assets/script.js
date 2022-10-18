@@ -14,7 +14,7 @@ fetch("assets/works.json")
             <p class="text-black text-base">${item.description}</p>
           </div>
           <div class="px-6 py-4">
-            <a class="bg-[#056CF2] hover:bg-black text-white font-medium py-2 px-4 rounded transition-all ease-in-out" href="${item.link}" target="_blank">Visit the project</a>
+            <a class="bg-[#056CF2] hover:bg-[#F2A005] text-white font-medium py-2 px-4 rounded transition-all ease-in-out" href="${item.link}" target="_blank">Visit the project</a>
           </div>
       </div>
     `;
