@@ -1,23 +1,20 @@
 [
     {
-        "image" : "assets/img/calculator.jpg",
-        "name" : "Calculator Project",
-        "description" : "In this project I created a simple calculator using HTML, CSS and JS.",
-        "link": "https://vvkdo98.github.io/calculator-project/",
-        "linkrepo" : "https://github.com/VVKDO98/calculator-project"
+        "image" : "assets/img/cogip.png",
+        "name" : "Cogip Enterprise",
+        "description" : "A site containing the invoices of a company that can be managed with a dashboard.",
+        "link": "https://github.com/VVKDO98/cogip-project"
     },
     {
-        "image" : "assets/img/weatherapp.jpg",
-        "name" : "Weather App",
-        "description" : "A Weather App using OpenWeather API and HTML, CSS and JS.",
-        "link": "https://vvkdo98.github.io/weather-app/",
-        "linkrepo" : "https://github.com/VVKDO98/weather-app"
+        "image" : "assets/img/calculator.png",
+        "name" : "Calculator",
+        "description" : "A javascript calculator allowing to do simple mathematical operations.",
+        "link": "https://github.com/VVKDO98/calculator-project"
     },
     {
-        "image" : "assets/img/sunnyside.jpg",
-        "name" : "Sunnyside Agency",
-        "description" : "The purpose of this project is to experiment with flexboxes.",
-        "link": "https://vvkdo98.github.io/sunnyside-agency/",
-        "linkrepo" : "https://vvkdo98.github.io/sunnyside-agency/"
+        "image" : "assets/img/hackerspoulette.png",
+        "name" : "Hackers Poulette Form",
+        "description" : "A contact form in php allowing to send a complaint email.",
+        "link": "https://github.com/VVKDO98/form-hackers-poulette"
     }
 ]
