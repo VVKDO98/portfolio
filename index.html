@@ -4,134 +4,61 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script
-      src="https://kit.fontawesome.com/85d5696523.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/85d5696523.js" crossorigin="anonymous"></script>
+    <link href="/dist/output.css" rel="stylesheet">
     <title>Doriano Vanvolcksom</title>
   </head>
-  <body class="relative">
+  <body class="relative font-opensans">
     <!-- Header -->
     <header class="h-screen relative flex flex-col justify-center items-center">
       <!-- <img src="#" alt="" class="logo" /> -->
-      <h1 class="text-5xl lg:text-7xl mb-5 uppercase font-normal text-center">
+      <h1 class="font-medium text-5xl lg:text-7xl mb-5 uppercase text-center text-[#056CF2]">
         Doriano Vanvolcksom
       </h1>
-      <p class="text-base font-light lg:text-xl">
-        Junior Web Developer
-        <a
-          href="https://becode.org/"
-          class="text-blue-500 hover:text-blue-900 text-base font-light duration-100 lg:text-xl mb-8 text-center cursor-pointer"
-          >@BeCode.org</a
-        >
-      </p>
-      <img
-        src="assets/img/arrow.png"
-        alt=""
-        class="w-[40px] absolute bottom-0 animate-bounce"
-      />
+      <p class="text-base font-normal lg:text-xl">Junior Web Developer</p>
+      <img src="assets/img/arrow.png" alt="" class="w-[40px] absolute bottom-0 animate-bounce"/>
     </header>
     <div id="modal">
-      <button
-        type="button"
-        class="fixed right-6 bottom-6 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-full text-sm px-4 py-4 text-center mr-2 mb-2"
-      >
-        <a href="mailto:vanvolcksom.doriano01@gmail.com"
-          ><i class="fa-solid fa-paper-plane fa-xl"></i
-        ></a>
+      <button type="button" class="fixed right-6 bottom-6 text-white bg-[#056CF2] hover:bg-black font-medium rounded-full text-sm px-4 py-4 text-center mr-2 mb-2 transition-all ease-in-out" >
+        <a href="mailto:vanvolcksom.doriano01@gmail.com"><i class="fa-solid fa-paper-plane fa-xl"></i></a>
       </button>
     </div>
-    <!-- Main -->
     <main class="h-full flex flex-col justify-center items-center">
-      <!-- About -->
-      <section
-        id="about"
-        class="h-screen w-full flex flex-col justify-center items-center bg-gray-900"
-      >
-        <div
-          class="w-4/5 mx-auto my-10 flex flex-col lg:flex-row lg:items-center"
-        >
+      <section id="about" class="h-screen w-full flex flex-col justify-center items-center bg-black" >
+        <div class="w-4/5 mx-auto my-10 flex flex-col lg:flex-row lg:items-center" >
           <div class="w-full lg:w-1/2">
-            <h2
-              class="text-white text-3xl lg:text-5xl uppercase font-normal mb-16"
-            >
-              About me
-            </h2>
-            <p class="text-white text-base font-light lg:text-xl mb-8">
+            <h2 class="font-medium text-white text-3xl lg:text-5xl uppercase mb-16" >About me</h2>
+            <p class="text-white text-base font-normal lg:text-xl mb-8">
               Hello, my name is Doriano, I am 24 years old. I am a Junior
               front-end web developer who studied at BeCode.org. My passions are
               web development, communication, sports and of course, video games.
             </p>
           </div>
           <div class="w-full lg:w-1/2 flex justify-center">
-            <img
-              src="assets/img/pp.jpg"
-              alt=""
-              class="w-80 lg:w-96 rounded-full"
-            />
+            <img src="assets/img/pp.png" alt="" class="w-80 lg:w-96 rounded-full" />
           </div>
         </div>
       </section>
-      <!-- Toolbox -->
-      <section
-        id="toolbox"
-        class="h-screen w-full flex flex-col justify-center items-center"
-      >
-        <h2
-          class="text-gray-900 text-3xl lg:text-5xl uppercase font-normal mb-16"
-        >
-          toolbox
-        </h2>
+      <section id="toolbox" class="h-screen w-full flex flex-col justify-center items-center" >
+        <h2 class="text-gray-900 text-3xl lg:text-5xl uppercase font-medium mb-16" >toolbox</h2>
         <div class="flex flex-col lg:flex-row">
-          <img
-            src="assets/img/html.png"
-            alt=""
-            class="w-16 lg:w-32 mb-8 lg:mb-0 lg:mx-5"
-          />
-          <img
-            src="assets/img/css-3.png"
-            alt=""
-            class="w-16 lg:w-32 mb-8 lg:mb-0 lg:mx-5"
-          />
-          <img
-            src="assets/img/js.png"
-            alt=""
-            class="w-16 lg:w-32 mb-8 lg:mb-0 lg:mx-5"
-          />
-          <img
-            src="assets/img/sass.png"
-            alt=""
-            class="w-16 lg:w-32 mb-8 lg:mb-0 lg:mx-5"
-          />
-          <img
-            src="assets/img/github.png"
-            alt=""
-            class="w-16 lg:w-32 lg:mb-0 lg:mx-5"
-          />
+          <img src="assets/img/html.png" alt="" class="w-16 lg:w-32 mb-8 lg:mb-0 lg:mx-5" />
+          <img src="assets/img/css-3.png" alt="" class="w-16 lg:w-32 mb-8 lg:mb-0 lg:mx-5" />
+          <img src="assets/img/js.png" alt="" class="w-16 lg:w-32 mb-8 lg:mb-0 lg:mx-5" />
+          <img src="assets/img/sass.png" alt="" class="w-16 lg:w-32 mb-8 lg:mb-0 lg:mx-5" />
+          <img src="assets/img/github.png" alt="" class="w-16 lg:w-32 lg:mb-0 lg:mx-5" />
         </div>
       </section>
-      <!-- Project -->
-      <section
-        class="h-full lg:h-screen w-full p-[50px] flex flex-col lg:flex-row justify-center items-center bg-gray-900"
-        id="project"
-      ></section>
+      <section id="project" class="h-full lg:h-screen w-full p-[50px] flex flex-col lg:flex-row justify-center items-center bg-black gap-6">
+        
+      </section>
     </main>
-    <section
-      class="h-screen w-full p-[50px] flex flex-col justify-center items-center"
-    >
-      <h2
-        class="text-gray-900 text-3xl lg:text-5xl uppercase font-normal mb-16 text-center"
-      >
-        Get in touch
-      </h2>
-      <p class="text-base font-light lg:text-xl mb-8 text-center">
-        Let's exchange directly by email via
-        <a
-          href="mailto:vanvolcksom.doriano01@gmail.com"
-          class="text-blue-500 hover:text-blue-900 text-base font-light duration-100 lg:text-xl mb-8 text-center cursor-pointer"
-          >vanvolcksom.doriano01@gmail.com</a
-        >
+    <section class="h-screen w-full p-[50px] flex flex-col justify-center items-center" >
+      <h2 class="text-gray-900 text-3xl lg:text-5xl uppercase font-medium mb-16 text-center" >Get in touch</h2>
+      <p class="text-base font-normal lg:text-xl mb-8 text-center"> Let's exchange directly by email via
+        <a href="mailto:vanvolcksom.doriano01@gmail.com" class="text-blue-500 hover:text-blue-900 text-base font-normal duration-100 lg:text-xl mb-8 text-center cursor-pointer">
+          vanvolcksom.doriano01@gmail.com
+        </a>
       </p>
     </section>
     <script src="assets/script.js"></script>
