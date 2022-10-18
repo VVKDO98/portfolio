@@ -1,6 +1,6 @@
 const project = document.querySelector("#project");
 
-fetch("assets/works.json")
+fetch("./public/assets/works.json")
   .then((response) => response.json())
   .then((data) => {
     for (let item of data) {
