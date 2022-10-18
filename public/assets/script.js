@@ -5,7 +5,7 @@ fetch("assets/works.json")
   .then((data) => {
     for (let item of data) {
       const bloc = `
-    <div class="max-w-sm rounded overflow-hidden bg-white">
+    <div class="max-w-sm rounded-md overflow-hidden bg-white">
           <a href="${item.link}" alt="${item.name}" target="_blank">
             <img class="w-full mb-8" src="${item.image}" alt="${item.name}">
           </a>

@@ -698,6 +698,10 @@ video {
   gap: 1.5rem;
 }
 
+.gap-5{
+  gap: 1.25rem;
+}
+
 .overflow-hidden{
   overflow: hidden;
 }
@@ -708,6 +712,19 @@ video {
 
 .rounded{
   border-radius: 0.25rem;
+}
+
+.rounded-xl{
+  border-radius: 0.75rem;
+}
+
+.rounded-md{
+  border-radius: 0.375rem;
+}
+
+.rounded-l{
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
 }
 
 .bg-\[\#056CF2\]{
@@ -794,6 +811,10 @@ video {
   font-weight: 700;
 }
 
+.font-light{
+  font-weight: 300;
+}
+
 .uppercase{
   text-transform: uppercase;
 }
@@ -842,9 +863,24 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-\[\#F2A005\]:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(242 160 5 / var(--tw-bg-opacity));
+}
+
 .hover\:text-blue-900:hover{
   --tw-text-opacity: 1;
   color: rgb(30 58 138 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#056CF2\]:hover{
+  --tw-text-opacity: 1;
+  color: rgb(5 108 242 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#F2A005\]:hover{
+  --tw-text-opacity: 1;
+  color: rgb(242 160 5 / var(--tw-text-opacity));
 }
 
 @media (min-width: 1024px){
