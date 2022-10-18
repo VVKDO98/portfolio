@@ -1,0 +1,20 @@
+[
+    {
+        "image" : "assets/img/cogip.png",
+        "name" : "Cogip Enterprise",
+        "description" : "A site containing the invoices of a company that can be managed with a dashboard.",
+        "link": "https://github.com/VVKDO98/cogip-project"
+    },
+    {
+        "image" : "assets/img/calculator.png",
+        "name" : "Calculator",
+        "description" : "A javascript calculator allowing to do simple mathematical operations.",
+        "link": "https://github.com/VVKDO98/calculator-project"
+    },
+    {
+        "image" : "assets/img/hackerspoulette.png",
+        "name" : "Hackers Poulette Form",
+        "description" : "A contact form in php allowing to send a complaint email.",
+        "link": "https://github.com/VVKDO98/form-hackers-poulette"
+    }
+]
