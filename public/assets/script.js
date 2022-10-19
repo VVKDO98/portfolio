@@ -21,3 +21,13 @@ fetch("./public/assets/works.json")
       project.insertAdjacentHTML("beforeend", bloc);
     }
   });
+
+const cursor = document.getElementById("cursor");
+const cursorsmall = document.getElementById("cursorsmall");
+console.log(cursor);
+window.addEventListener('mousemove', function(e){
+  cursor.style.left = e.clientX + 'px';
+  cursor.style.top = e.clientY + 'px';
+  cursorsmall.style.left = e.clientX + 'px';
+  cursorsmall.style.top = e.clientY + 'px';
+})
