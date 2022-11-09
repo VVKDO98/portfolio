@@ -10,7 +10,7 @@ fetch("./public/assets/works.json")
             <img class="w-full mb-8" src="${item.image}" alt="${item.name}">
           </a>
           <div class="px-6 mb-5">
-            <h3 class="text-black] font-bold text-xl selection:text-yellow">${item.name}</h3>
+            <h3 class="text-black font-bold text-xl selection:text-yellow">${item.name}</h3>
             <p class="text-black text-base selection:text-yellow">${item.description}</p>
           </div>
           <div class="px-6 py-4">
