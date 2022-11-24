@@ -1,5 +1,11 @@
 [
     {
+        "image" : "public/assets/img/blog.png",
+        "name" : "Notbook Blog",
+        "description" : "A blog made in React and Tailwind linked to a database on Supabase.",
+        "link": "https://github.com/VVKDO98/react-blog-with-api-blog"
+    },
+    {
         "image" : "public/assets/img/cogip.png",
         "name" : "Cogip Enterprise",
         "description" : "A site containing the invoices of a company that can be managed with a dashboard.",
@@ -10,11 +16,5 @@
         "name" : "Calculator",
         "description" : "A javascript calculator allowing to do simple mathematical operations.",
         "link": "https://github.com/VVKDO98/calculator-project"
-    },
-    {
-        "image" : "public/assets/img/hackerspoulette.png",
-        "name" : "Hackers Poulette Form",
-        "description" : "A contact form in php allowing to send a complaint email.",
-        "link": "https://github.com/VVKDO98/form-hackers-poulette"
     }
 ]
