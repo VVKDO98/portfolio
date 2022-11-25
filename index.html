@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -19,9 +19,21 @@
         <link href="public/output.css" rel="stylesheet" />
         <title>Doriano Vanvolcksom | Portfolio Web Developer Junior</title>
     </head>
-    <body class="relative font-opensans">
+    <body class="relative font-opensans cursor-none">
+        <nav class="z-40 px-10 w-full h-20 bg-white cust-shadow hidden top-0 left-0 lg:fixed lg:block">
+            <div class="w-full h-full flex flex-row justify-between items-center relative">
+                <a  href="#header" class="text-2xl font-black hover:text-yellow cursor-none">DV</a>
+                <div class="flex flex-row items-center gap-10 text-base text-black font-medium">
+                    <a href="#about" class="hover:text-yellow cursor-none">About</a>
+                    <a href="#toolbox" class="hover:text-yellow cursor-none ">Toolbox</a>
+                    <a href="#project" class="hover:text-yellow cursor-none">Projects</a>
+                    <a href="#contact" class="hover:text-yellow cursor-none">Contact</a>
+                </div>
+            </div>
+        </nav>
         <!-- Header -->
         <header
+            id="header"
             class="h-screen relative flex flex-col justify-center items-center"
         >
             <!-- <img src="#" alt="" class="logo" /> -->
@@ -41,23 +53,23 @@
         </header>
         <div
             id="cursor"
-            class="w-10 h-10 border border-solid border-black rounded-full fixed top-0 left-0 -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+            class="z-50 w-10 h-10 border border-solid border-black rounded-full fixed top-0 left-0 -translate-x-1/2 -translate-y-1/2 pointer-events-none"
         ></div>
         <div
             id="cursorsmall"
-            class="w-2 h-2 bg-blue rounded-full fixed top-0 left-0 -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+            class="z-50 w-2 h-2 bg-blue rounded-full fixed top-0 left-0 -translate-x-1/2 -translate-y-1/2 pointer-events-none"
         ></div>
         <div id="modal">
             <button
                 type="button"
-                class="fixed right-6 bottom-6 text-white bg-blue hover:bg-yellow font-medium rounded-full text-sm px-4 py-4 text-center mr-2 mb-2 transition-all ease-in-out"
+                class="fixed right-6 bottom-6 text-white bg-blue hover:bg-yellow font-medium rounded-full text-sm px-4 py-4 text-center mr-2 mb-2 transition-all ease-in-out cursor-none"
             >
-                <a href="mailto:vanvolcksom.doriano01@gmail.com"
-                    ><i class="fa-regular fa-paper-plane fa-xl"></i
-                ></a>
+                <a href="mailto:vanvolcksom.doriano01@gmail.com" class="cursor-none">
+                    <i class="fa-regular fa-paper-plane fa-xl"></i>
+                </a>
             </button>
         </div>
-        <main class="h-full flex flex-col justify-center items-center">
+        <main id="about" class="h-full flex flex-col justify-center items-center">
             <section
                 id="about"
                 class="h-screen w-full flex flex-col justify-center items-center bg-black"
@@ -134,7 +146,8 @@
                 class="h-full lg:h-screen w-full p-[50px] flex flex-col lg:flex-row justify-center items-center bg-black gap-6"
             ></section>
         </main>
-        <section
+        <section 
+            id="contact"
             class="h-screen w-full p-[50px] flex flex-col justify-center items-center"
         >
             <h2
@@ -146,19 +159,19 @@
                 <a
                     href="https://www.linkedin.com/in/dorianovanvolcksom/"
                     target="_blank"
-                    class="text-blue hover:text-yellow transition-all ease-in-out"
+                    class="text-blue hover:text-yellow transition-all ease-in-out cursor-none"
                     ><i class="fa-brands fa-linkedin-in fa-2xl"></i
                 ></a>
                 <a
                     href="https://github.com/VVKDO98"
                     target="_blank"
-                    class="text-blue hover:text-yellow transition-all ease-in-out"
+                    class="text-blue hover:text-yellow transition-all ease-in-out cursor-none"
                     ><i class="fa-brands fa-github fa-2xl"></i
                 ></a>
                 <a
                     href="mailto:vanvolcksom.doriano01@gmail.com"
                     target="_blank"
-                    class="text-blue hover:text-yellow transition-all ease-in-out"
+                    class="text-blue hover:text-yellow transition-all ease-in-out cursor-none"
                     ><i class="fa-solid fa-at fa-2xl"></i
                 ></a>
             </div>

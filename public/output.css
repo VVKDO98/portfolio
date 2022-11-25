@@ -551,6 +551,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.cust-shadow{
+  box-shadow: 0px 14px 30px 17px rgba(0, 0, 0, 0.02);
+}
+
 .pointer-events-none {
   pointer-events: none;
 }
@@ -567,10 +571,6 @@ video {
   position: relative;
 }
 
-.bottom-0 {
-  bottom: 0px;
-}
-
 .top-0 {
   top: 0px;
 }
@@ -579,12 +579,24 @@ video {
   left: 0px;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
 .right-6 {
   right: 1.5rem;
 }
 
 .bottom-6 {
   bottom: 1.5rem;
+}
+
+.z-50 {
+  z-index: 50;
+}
+
+.z-40 {
+  z-index: 40;
 }
 
 .mx-auto {
@@ -621,6 +633,18 @@ video {
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.h-full {
+  height: 100%;
+}
+
 .h-screen {
   height: 100vh;
 }
@@ -633,8 +657,12 @@ video {
   height: 0.5rem;
 }
 
-.h-full {
-  height: 100%;
+.h-2\/3 {
+  height: 66.666667%;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .w-\[40px\] {
@@ -647,10 +675,6 @@ video {
 
 .w-2 {
   width: 0.5rem;
-}
-
-.w-full {
-  width: 100%;
 }
 
 .w-4\/5 {
@@ -708,6 +732,14 @@ video {
           animation: bounce 1s infinite;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-none {
+  cursor: none;
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -724,6 +756,14 @@ video {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
 .gap-20 {
   gap: 5rem;
 }
@@ -738,6 +778,10 @@ video {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.scroll-smooth {
+  scroll-behavior: smooth;
 }
 
 .rounded-full {
@@ -765,6 +809,11 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .bg-blue {
   --tw-bg-opacity: 1;
   background-color: rgb(5 108 242 / var(--tw-bg-opacity));
@@ -775,18 +824,13 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#056CF2\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(5 108 242 / var(--tw-bg-opacity));
-}
-
 .p-\[50px\] {
   padding: 50px;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .px-4 {
@@ -817,14 +861,14 @@ video {
   font-family: Open sans, sans-serif;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .text-sm {
@@ -846,6 +890,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-medium {
   font-weight: 500;
 }
@@ -862,18 +911,22 @@ video {
   font-weight: 700;
 }
 
-.uppercase {
-  text-transform: uppercase;
+.font-black {
+  font-weight: 900;
 }
 
-.text-blue {
-  --tw-text-opacity: 1;
-  color: rgb(5 108 242 / var(--tw-text-opacity));
+.uppercase {
+  text-transform: uppercase;
 }
 
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-blue {
+  --tw-text-opacity: 1;
+  color: rgb(5 108 242 / var(--tw-text-opacity));
 }
 
 .text-black {
@@ -911,12 +964,16 @@ video {
   color: rgb(242 160 5 / var(--tw-text-opacity));
 }
 
-.hover\:bg-yellow:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(242 160 5 / var(--tw-bg-opacity));
+.target\:text-yellow:target {
+  --tw-text-opacity: 1;
+  color: rgb(242 160 5 / var(--tw-text-opacity));
 }
 
-.hover\:bg-\[\#F2A005\]:hover {
+.hover\:cursor-none:hover {
+  cursor: none;
+}
+
+.hover\:bg-yellow:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(242 160 5 / var(--tw-bg-opacity));
 }
@@ -926,7 +983,26 @@ video {
   color: rgb(242 160 5 / var(--tw-text-opacity));
 }
 
+.hover\:text-blue:hover {
+  --tw-text-opacity: 1;
+  color: rgb(5 108 242 / var(--tw-text-opacity));
+}
+
+.focus\:text-yellow:focus {
+  --tw-text-opacity: 1;
+  color: rgb(242 160 5 / var(--tw-text-opacity));
+}
+
+.active\:text-yellow:active {
+  --tw-text-opacity: 1;
+  color: rgb(242 160 5 / var(--tw-text-opacity));
+}
+
 @media (min-width: 1024px) {
+  .lg\:fixed {
+    position: fixed;
+  }
+
   .lg\:mx-5 {
     margin-left: 1.25rem;
     margin-right: 1.25rem;
@@ -934,6 +1010,10 @@ video {
 
   .lg\:mb-0 {
     margin-bottom: 0px;
+  }
+
+  .lg\:block {
+    display: block;
   }
 
   .lg\:h-screen {

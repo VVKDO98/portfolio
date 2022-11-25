@@ -6,7 +6,7 @@ fetch("./public/assets/works.json")
         for (let item of data) {
             const bloc = `
     <div class="max-w-sm rounded-md overflow-hidden bg-white">
-          <a href="${item.link}" alt="${item.name}" target="_blank">
+          <a href="${item.link}" alt="${item.name}" target="_blank" class="cursor-none">
             <img class="w-full mb-8" src="${item.image}" alt="${item.name}">
           </a>
           <div class="px-6 mb-5">
@@ -14,7 +14,7 @@ fetch("./public/assets/works.json")
             <p class="text-black text-base selection:text-yellow">${item.description}</p>
           </div>
           <div class="px-6 py-4">
-            <a class="bg-blue hover:bg-yellow text-white font-medium py-2 px-4 rounded transition-all ease-in-out" href="${item.link}" target="_blank">Visit the project</a>
+            <a class="bg-blue hover:bg-yellow text-white font-medium py-2 px-4 rounded transition-all ease-in-out cursor-none" href="${item.link}" target="_blank">Visit the project</a>
           </div>
       </div>
     `;
