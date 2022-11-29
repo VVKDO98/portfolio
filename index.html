@@ -4,19 +4,11 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta
-            name="description"
-            content="Hi, I'm Doriano Vanvolcksom, front-end developer based in Hainaut, Belgium. I focus on front-end web design using JavaScript, React and Tailwind."
-        />
-        <script
-            src="https://kit.fontawesome.com/85d5696523.js"
-            crossorigin="anonymous"
-        ></script>
-        <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
-        />
+        <meta name="description" content="Hi, I'm Doriano Vanvolcksom, front-end developer based in Hainaut, Belgium. I focus on front-end web design using JavaScript, React and Tailwind."/>
+        <script src="https://kit.fontawesome.com/85d5696523.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"/>
         <link href="public/output.css" rel="stylesheet" />
+        <script defer src="./public/assets/script.js"></script>
         <title>Doriano Vanvolcksom | Portfolio Web Developer Junior</title>
     </head>
     <body class="relative font-opensans cursor-none">
@@ -32,60 +24,32 @@
             </div>
         </nav>
         <!-- Header -->
-        <header
-            id="header"
-            class="h-screen relative flex flex-col justify-center items-center"
-        >
-            <!-- <img src="#" alt="" class="logo" /> -->
-            <h1
-                class="font-medium text-5xl lg:text-7xl mb-5 uppercase text-center text-blue selection:text-yellow"
-            >
-                Doriano Vanvolcksom
-            </h1>
-            <p class="text-base font-normal lg:text-xl selection:text-yellow">
-                Junior Front-End Developer
-            </p>
-            <img
-                src="public/assets/img/arrow.png"
-                alt=""
-                class="w-[40px] absolute bottom-0 animate-bounce"
-            />
+        <header id="header" class="h-screen relative flex flex-col justify-center items-center">
+            <h1 class="font-medium text-5xl lg:text-7xl mb-5 uppercase text-center text-blue selection:text-yellow">Doriano Vanvolcksom</h1>
+            <p class="text-base font-normal lg:text-xl selection:text-yellow">Junior Front-End Developer</p>
+            <img src="public/assets/img/arrow.png" alt="Arrow animation" class="w-[40px] absolute bottom-0 animate-bounce"/>
         </header>
-        <div
-            id="cursor"
-            class="z-50 w-10 h-10 border border-solid border-black rounded-full fixed -top-10 -left-10 -translate-x-1/2 -translate-y-1/2 pointer-events-none"
-        ></div>
-        <div
-            id="cursorsmall"
-            class="z-50 w-2 h-2 bg-blue rounded-full fixed -top-10 -left-10 -translate-x-1/2 -translate-y-1/2 pointer-events-none"
-        ></div>
+        <!-- Header -->
+        <!-- Cursor -->
+        <div id="cursor" class="hidden sm:block z-50 w-10 h-10 border border-solid border-black rounded-full fixed -top-10 -left-10 -translate-x-1/2 -translate-y-1/2 pointer-events-none"></div>
+        <div id="cursorsmall" class="hidden sm:block z-50 w-2 h-2 bg-blue rounded-full fixed -top-10 -left-10 -translate-x-1/2 -translate-y-1/2 pointer-events-none"></div>
+        <!-- Cursor -->
+        <!-- Modal contact -->
         <div id="modal">
-            <button
-                type="button"
-                class="fixed right-6 bottom-6 text-white bg-blue hover:bg-yellow font-medium rounded-full text-sm px-4 py-4 text-center mr-2 mb-2 transition-all ease-in-out cursor-none"
-            >
+            <button type="button" class="fixed right-6 bottom-6 text-white bg-blue hover:bg-yellow font-medium rounded-full text-sm px-4 py-4 text-center mr-2 mb-2 transition-all ease-in-out cursor-none">
                 <a href="mailto:vanvolcksom.doriano01@gmail.com" class="cursor-none">
                     <i class="fa-regular fa-paper-plane fa-xl"></i>
                 </a>
             </button>
         </div>
+        <!-- Modal contact -->
         <main id="about" class="h-full flex flex-col justify-center items-center">
-            <section
-                id="about"
-                class="h-screen w-full flex flex-col justify-center items-center bg-black"
-            >
-                <div
-                    class="w-4/5 mx-auto my-10 flex flex-col lg:flex-row lg:items-center"
-                >
+            <!-- Section about -->
+            <section id="about" class="h-screen w-full flex flex-col justify-center items-center bg-black">
+                <div class="w-4/5 mx-auto my-10 flex flex-col lg:flex-row lg:items-center">
                     <div class="w-full lg:w-1/2">
-                        <h2
-                            class="font-medium text-white text-3xl lg:text-5xl mb-16 selection:text-yellow"
-                        >
-                            About me
-                        </h2>
-                        <p
-                            class="text-white text-base font-light lg:text-xl mb-8 selection:text-yellow"
-                        >
+                        <h2 class="font-medium text-white text-3xl lg:text-5xl mb-16 selection:text-yellow">About me</h2>
+                        <p class="text-white text-base font-light lg:text-xl mb-8 selection:text-yellow">
                             Hello, my name is Doriano. I'm a junior frontend web
                             developer based in Belgium, who studied at
                             BeCode.org. I focus on front-end web design using
@@ -93,89 +57,49 @@
                         </p>
                     </div>
                     <div class="w-full lg:w-1/2 flex justify-center">
-                        <img
-                            src="public/assets/img/pp.png"
-                            alt=""
-                            class="w-80 lg:w-96 rounded-full"
-                        />
+                        <img src="public/assets/img/pp.png" alt="" class="w-80 lg:w-96 rounded-full"/>
                     </div>
                 </div>
             </section>
-            <section
-                id="toolbox"
-                class="h-screen w-full flex flex-col justify-center items-center"
-            >
-                <h2
-                    class="text-gray-900 text-3xl lg:text-5xl font-medium mb-16 selection:text-yellow"
-                >
-                    Toolbox
-                </h2>
+            <!-- Section about -->
+            <!-- Section Toolbox -->
+            <section id="toolbox" class="h-screen w-full flex flex-col justify-center items-center">
+                <h2 class="text-gray-900 text-3xl lg:text-5xl font-medium mb-16 selection:text-yellow">Toolbox</h2>
                 <div class="flex flex-row gap-20 lg:gap-0">
                     <div class="flex flex-col lg:flex-row">
-                        <i
-                            class="devicon-html5-plain text-[100px] lg:text-[128px] mb-8 lg:mb-0 lg:mx-5"
-                        ></i>
-                        <i
-                            class="devicon-css3-plain text-[100px] lg:text-[128px] mb-8 lg:mb-0 lg:mx-5"
-                        ></i>
-                        <i
-                            class="devicon-javascript-plain text-[100px] lg:text-[128px] mb-8 lg:mb-0 lg:mx-5"
-                        ></i>
-                        <i
-                            class="devicon-sass-original text-[100px] lg:text-[128px] mb-8 lg:mb-0 lg:mx-5"
-                        ></i>
+                        <i class="devicon-html5-plain text-[100px] lg:text-[128px] mb-8 lg:mb-0 lg:mx-5"></i>
+                        <i class="devicon-css3-plain text-[100px] lg:text-[128px] mb-8 lg:mb-0 lg:mx-5"></i>
+                        <i class="devicon-javascript-plain text-[100px] lg:text-[128px] mb-8 lg:mb-0 lg:mx-5"></i>
+                        <i class="devicon-sass-original text-[100px] lg:text-[128px] mb-8 lg:mb-0 lg:mx-5"></i>
                     </div>
                     <div class="flex flex-col lg:flex-row">
-                        <i
-                            class="devicon-tailwindcss-plain text-[100px] lg:text-[128px] mb-8 lg:mb-0 lg:mx-5"
-                        ></i>
-                        <i
-                            class="devicon-react-original text-[100px] lg:text-[128px] mb-8 lg:mb-0 lg:mx-5"
-                        ></i>
-                        <i
-                            class="devicon-nodejs-plain text-[100px] lg:text-[128px] mb-8 lg:mb-0 lg:mx-5"
-                        ></i>
-                        <i
-                            class="devicon-php-plain text-[100px] lg:text-[128px] mb-8 lg:mb-0 lg:mx-5"
-                        ></i>
+                        <i class="devicon-tailwindcss-plain text-[100px] lg:text-[128px] mb-8 lg:mb-0 lg:mx-5"></i>
+                        <i class="devicon-react-original text-[100px] lg:text-[128px] mb-8 lg:mb-0 lg:mx-5"></i>
+                        <i class="devicon-nodejs-plain text-[100px] lg:text-[128px] mb-8 lg:mb-0 lg:mx-5"></i>
+                        <i class="devicon-php-plain text-[100px] lg:text-[128px] mb-8 lg:mb-0 lg:mx-5"></i>
                     </div>
                 </div>
             </section>
-            <section
-                id="project"
-                class="h-full lg:h-screen w-full p-[50px] flex flex-col lg:flex-row justify-center items-center bg-black gap-6"
-            ></section>
+            <!-- Section Toolbox -->
+            <!-- Section Project -->
+            <section id="project" class="h-full lg:h-screen w-full p-[50px] flex flex-col lg:flex-row justify-center items-center bg-black gap-6"></section>
+            <!-- Section Project -->
         </main>
-        <section 
-            id="contact"
-            class="h-screen w-full p-[50px] flex flex-col justify-center items-center"
-        >
-            <h2
-                class="text-gray-900 text-3xl lg:text-5xl font-medium mb-16 text-center selection:text-yellow"
-            >
-                Contact
-            </h2>
+        <!-- Section Contact -->
+        <section id="contact" class="h-screen w-full p-[50px] flex flex-col justify-center items-center">
+            <h2 class="text-gray-900 text-3xl lg:text-5xl font-medium mb-16 text-center selection:text-yellow">Contact</h2>
             <div class="flex gap-5">
-                <a
-                    href="https://www.linkedin.com/in/dorianovanvolcksom/"
-                    target="_blank"
-                    class="text-blue hover:text-yellow transition-all ease-in-out cursor-none"
-                    ><i class="fa-brands fa-linkedin-in fa-2xl"></i
-                ></a>
-                <a
-                    href="https://github.com/VVKDO98"
-                    target="_blank"
-                    class="text-blue hover:text-yellow transition-all ease-in-out cursor-none"
-                    ><i class="fa-brands fa-github fa-2xl"></i
-                ></a>
-                <a
-                    href="mailto:vanvolcksom.doriano01@gmail.com"
-                    target="_blank"
-                    class="text-blue hover:text-yellow transition-all ease-in-out cursor-none"
-                    ><i class="fa-solid fa-at fa-2xl"></i
-                ></a>
+                <a href="https://www.linkedin.com/in/dorianovanvolcksom/" target="_blank" class="text-blue hover:text-yellow transition-all ease-in-out cursor-none">
+                    <i class="fa-brands fa-linkedin-in fa-2xl"></i>
+                </a>
+                <a href="https://github.com/VVKDO98" target="_blank" class="text-blue hover:text-yellow transition-all ease-in-out cursor-none">
+                    <i class="fa-brands fa-github fa-2xl"></i>
+                </a>
+                <a href="mailto:vanvolcksom.doriano01@gmail.com" target="_blank" class="text-blue hover:text-yellow transition-all ease-in-out cursor-none">
+                    <i class="fa-solid fa-at fa-2xl"></i>
+                </a>
             </div>
         </section>
-        <script src="./public/assets/script.js"></script>
+        <!-- Section Contact -->
     </body>
 </html>
