@@ -857,6 +857,10 @@ video {
   text-align: center;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .font-opensans {
   font-family: Open sans, sans-serif;
 }
@@ -1036,6 +1040,10 @@ video {
 
   .lg\:gap-10 {
     gap: 2.5rem;
+  }
+
+  .lg\:gap-5 {
+    gap: 1.25rem;
   }
 
   .lg\:text-7xl {
