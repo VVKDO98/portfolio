@@ -4,9 +4,9 @@
 
 In order to present you my different projects, I made a small portfolio.
 
-To add an extra challenge, I decided to make it using a framework that I had never used before, namely, [Tailwind](https://tailwindcss.com/) 😱.
+In this portfolio you will find a description of who I am, the technologies I use and how to contact me.
 
-I hope you enjoy it 👽
+![Project screenshot](./screenshot.png)
 
 ## Languages
 
